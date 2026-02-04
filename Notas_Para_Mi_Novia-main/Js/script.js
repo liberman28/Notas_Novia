@@ -70,7 +70,37 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Para el amor de mi vida:\n\nDesde el primer momento supe que eras tú. Tu sonrisa, tu voz, tu forma de ser… todo en ti me hace sentir en casa.\n\nGracias por acompañarme en cada paso, por entenderme incluso en silencio, y por llenar mis días de amor.\n\nTe amo más de lo que las palabras pueden expresar.`;  } else {
+    text = `Para el amor de mi vida:\n\nCuando te conocí,
+se juntaron el destino y la suerte,
+las preguntas y las respuestas,
+el futuro y el presente.\n\n
+
+Cuando te conocí,
+se juntaron el camino y la misma dirección,
+el día y la noche,
+las ganas de tenerte y lo que de tí me enamoró.\n\n
+
+Cuando te conocí,
+se juntaron la realidad y lo que siempre soñé,
+lo tuyo y lo mío,
+lo que buscaba y todo lo que encontré.\n\n
+
+Cuando te conocí,
+se juntaron el te quiero y el deseo,
+mis besos y tus caricias,
+el por siempre y el vivir cada momento.\n\n
+
+Cuando te conocí,
+se juntaron lo que cambiamos y lo que se mantuvo igual
+tu compañía y mi soledad,
+lo que planeamos juntos y lo que dejamos atrás.\n\n
+
+Cuando te conocí,
+se juntaron tu corazón y mi amor,
+un arco iris y el final de la tormenta,
+el quedate conmigo y el no me digas que no.\n\n
+
+Cuando te conocí,\n\n \n\nTe amo más de lo que las palabras pueden expresar.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
