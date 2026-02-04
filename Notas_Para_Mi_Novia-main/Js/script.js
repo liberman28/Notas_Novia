@@ -100,7 +100,7 @@ se juntaron tu corazón y mi amor,
 un arco iris y el final de la tormenta,
 el quedate conmigo y el no me digas que no.\n\n
 
-Cuando te conocí,\n\n \n\nTe amo más de lo que las palabras pueden expresar.`;  } else {
+Cuando te conocí,\n\n Te amo más de lo que las palabras pueden expresar.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
